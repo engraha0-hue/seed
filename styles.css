@@ -1,0 +1,20 @@
+/* styles.css بسيط */
+* { box-sizing: border-box; font-family: "Segoe UI", Tahoma, Arial, sans-serif; }
+body { margin:0; background:#f6f7fb; color:#222; direction:rtl; }
+.container { max-width:1000px; margin:0 auto; padding:12px; }
+.site-header { background:#1b5e20; color:white; padding:12px 0; }
+.site-header .brand { display:inline-block; margin:0 12px; font-size:20px; }
+.site-header nav { display:inline-block; float:left; }
+.site-header nav a { color:white; margin-left:12px; text-decoration:none; }
+.site-header .welcome { margin-right:12px; color:#dff0d8; }
+.product { background:white; padding:12px; border-radius:8px; box-shadow:0 1px 3px rgba(0,0,0,0.08); margin-bottom:12px; display:flex; gap:12px; align-items:center; }
+.product img { width:110px; height:80px; object-fit:cover; border-radius:6px; background:#eee; }
+.product .meta { flex:1; }
+.btn { display:inline-block; padding:8px 14px; background:#2e7d32; color:white; text-decoration:none; border-radius:6px; }
+.btn.alt { background:#555; }
+.form-card { background:white; padding:16px; border-radius:8px; box-shadow:0 1px 3px rgba(0,0,0,0.06); margin-bottom:12px; }
+.input { width:100%; padding:8px; margin-bottom:8px; border:1px solid #ddd; border-radius:4px; }
+.table { width:100%; border-collapse:collapse; background:white; margin-bottom:12px; }
+.table th, .table td { padding:8px; border-bottom:1px solid #eee; text-align:right; }
+.cart-summary { background:white; padding:12px; border-radius:8px; }
+.alert { background:#ffefc2; padding:8px; border-radius:6px; margin-bottom:12px; }
